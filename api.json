@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "nombre": "Iymrith Doom of the Desert",
+        "precio": 25,
+        "descuento": "-50%",
+        "Juego": "Magic The Gatering",
+        "precioAnterior": 50,
+        "imagen": "./DIBUJOS/carta1.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Dragonlord Dromoka",
+        "precio": 50,
+        "descuento": "-50%",
+        "Juego": "Magic The Gatering",
+        "precioAnterior": 100,
+        "imagen": "./DIBUJOS/carta2.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Dragonlord Ojutai",
+        "precio": 75,
+        "descuento": "-25%",
+        "Juego": "Magic The Gatering",
+        "precioAnterior": 100,
+        "imagen": "./DIBUJOS/carta3.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Risen Executioner",
+        "precio": 25,
+        "descuento": "-50%",
+        "divisa": "USD",
+        "Juego": "Magic The Gatering",
+        "precioAnterior": 50,
+        "imagen": "./DIBUJOS/carta4.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Dargonlord Atarka",
+        "precio": 25,
+        "descuento": "-50%",
+        "Juego": "Magic The Gatering",
+        "precioAnterior": 50,
+        "imagen": "./DIBUJOS/carta5.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Sarulf, Realm Eater",
+        "precio": 25,
+        "descuento": "-50%",
+        "Juego": "Magic The Gatering",
+        "precioAnterior": 50,
+        "imagen": "./DIBUJOS/carta6.png"
+    },
+    {
+        "id": 7,
+        "nombre": "Valki, God of Lies",
+        "precio": 25,
+        "descuento": "-50%",
+        "Juego": "Magic The Gatering",
+        "precioAnterior": 50,
+        "imagen": "./DIBUJOS/carta7.png"
+    },
+    {
+        "id": 8,
+        "nombre": "Be´lakor, the Dark Master",
+        "precio": 25,
+        "descuento": "-50%",
+        "Juego": "Magic The Gatering",
+        "precioAnterior": 50,
+        "imagen": "./DIBUJOS/carta8.png"
+    },
+    {
+        "id": 9,
+        "nombre": "Tibalt, Cosmic Impostor",
+        "precio": 25,
+        "descuento": "-50%",
+        "Juego": "Magic The Gatering",
+        "precioAnterior": 50,
+        "imagen": "./DIBUJOS/carta9.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Productos infinitos",
+        "precio": 25,
+        "descuento": "-50%",
+        "Juego": "Magic The Gatering",
+        "precioAnterior": 50,
+        "imagen": "./DIBUJOS/carta4.png"
+    }
+]

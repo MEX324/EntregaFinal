@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto -</title>
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/product.css">
+    <script src="https://kit.fontawesome.com/1d0674b0a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- NAVEGADOR -->
+    <nav class="navbar">
+        <div class="nav"> <img src="./DIBUJOS/Diseño sin título (2).png" class="brandLogo" alt="">
+            <div class="navItems">
+                <div class="search"> <input type="text" class="searchBox" placeholder="¿Que Buscas?"> <button
+                        class="searchButton">Buscar</button><a href="#"><img src="./DIBUJOS/user.png" alt=""></a><a
+                        href="#"><img src="./DIBUJOS/cart.png" alt=""></a></div>
+            </div>
+        </div>
+        <ul class="linkContainer">
+            <li class="linkItem"><a href="#" class="link">Home</a></li>
+            <li class="linkItem"><a href="#" class="link">Miniaturas</a></li>
+            <li class="linkItem"><a href="#" class="link">TCG</a></li>
+            <li class="linkItem"><a href="#" class="link">Libros</a></li>
+        </ul>
+    </nav>
+
+
+    <section class="productDetails">
+        <div class="mainImage"></div>
+        <div class="imageSlider">
+            <div class="productImages">
+                <img src="./DIBUJOS/carta1.png" class="active" alt="">
+                <img src="./DIBUJOS/carta2.png" alt="">
+                <img src="./DIBUJOS/carta3.png" alt="">
+                <img src="./DIBUJOS/carta4.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="details">
+            <h2 class="productName">Iymrith Doom of the Desert</h2>
+            <p class="productShort">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam beatae quibusdam
+                voluptatum incidunt excepturi enim provident hic. Magnam molestias tenetur libero eos? Quaerat eos atque
+                rerum natus, laboriosam vitae reiciendis.</p>
+
+            <span class="productPrice">$25</span>
+            <span class="productFullPrice">$50</span>
+            <span class="productDiscount">(-50%)</span>
+            <button class="btn AddCart">Agregar al Carrito</button>
+            <button class="btn Wish">Agregar a Favoritos</button>
+
+
+            <!-- LOS BOTONES DE VERSIONES NO SON FUNCIONALES, VAN A REMPLAZAR A LOS BOTONES DE IMAGENES -->
+
+            <!-- <p class="productSubHeading">Versiones</p>
+            <input type="radio" name="version" value="1" checked hidden id="version1"> 
+            <label for="version1" class="versionRadioBtn check"><div class="versionImage"><img src="./DIBUJOS/version1.png" alt=""></div></label>
+            <input type="radio" name="version" value="2" hidden id="version2"> 
+            <label for="version2" class="versionRadioBtn"><div class="versionImage"><img src="./DIBUJOS/version2.png" alt=""></div></label>
+            <input type="radio" name="version" value="3" hidden id="version3"> 
+            <label for="version3" class="versionRadioBtn"><div class="versionImage"><img src="./DIBUJOS/version3.png" alt=""></div></label>
+            <input type="radio" name="version" value="4" hidden id="version4"> 
+            <label for="version4" class="versionRadioBtn"><div class="versionImage"><img src="./DIBUJOS/version4.png" alt=""></div></label> -->
+
+        </div>
+    </section>
+
+
+
+    <!-- products cards -->
+    <section class="product">
+        <h2 class="productCategory">Cartas Unicas</h2>
+        <button class="preBtn"><img src="./DIBUJOS/arrow.png" alt=""></button>
+        <button class="nextBtn"><img src="./DIBUJOS/arrow.png" alt=""></button>
+        <div class="productContainer">
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta1.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta2.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta3.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta4.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta5.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta1.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta1.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta1.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta1.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- products minis -->
+    <section class="product">
+        <h2 class="productCategory">Miniaturas</h2>
+        <button class="preBtn"><img src="./DIBUJOS/arrow.png" alt=""></button>
+        <button class="nextBtn"><img src="./DIBUJOS/arrow.png" alt=""></button>
+        <div class="productContainer">
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta1.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta2.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta3.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta4.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta5.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta1.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta1.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta1.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta1.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- products books -->
+
+    <section class="product">
+        <h2 class="productCategory">Best Sellers</h2>
+        <button class="preBtn"><img src="./DIBUJOS/arrow.png" alt=""></button>
+        <button class="nextBtn"><img src="./DIBUJOS/arrow.png" alt=""></button>
+        <div class="productContainer">
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta1.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta2.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta3.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta4.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta5.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta1.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta1.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta1.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productImage">
+                    <span class="discountTag"> 50% Off</span>
+                    <img src="./DIBUJOS/carta1.png" class="productThumb" alt="">
+                    <button class="cardBtn">Agregar a favoritos</button>
+                </div>
+                <div class="productInfo">
+                    <h2 class="productName">Iymrith Doom of the Desert</h2>
+                    <p class="productBrand">Magic The Gatering</p>
+                    <span class="price">USD $25</span><span class="actualPrice">$50</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+    </footer>
+
+
+    <script src="./js/nav.js"></script>
+    <script src="./js/footer.js"></script>
+    <script src="./js/home.js"></script>
+    <script src="./js/product.js"></script>
+</body>
+
+</html>

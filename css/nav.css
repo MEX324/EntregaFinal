@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: 9;
+}
+
+.nav{
+    padding: 10px 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brandLogo {
+    height: 50px;
+}
+
+
+.navitems {
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    padding-top: 5px;
+    width: 500px;
+    display: flex;
+}
+
+.searchBox {
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #d1d1d1;
+    text-transform: capitalize;
+    background: none;
+    outline: none;
+    font-family: "Common";
+}
+
+.searchButton {
+    width: 15%;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #383838;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 13px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: "Common";
+}
+
+.searchBox::placeholder{
+    color: #a9a9a9;
+}
+
+.navItems a {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.navItems a img {
+    width: 30px;
+
+}
+
+.linkContainer {
+    width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+    border-top: 1px solid white;
+}
+
+.link{
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #383838;
+    opacity: 0.5;
+    transition: .5s;
+    font-family: "Common";
+}
+
+.link:hover {
+    opacity: 1;
+}
+

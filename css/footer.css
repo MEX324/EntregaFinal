@@ -1,0 +1,124 @@
+footer {
+    position: relative;
+    width: 100%;
+    padding: 40px 10vw;
+    padding-bottom: 10px;
+    background: #383838;
+}
+
+.footerContent{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footerContent .logo{
+    height: 160px;
+}
+
+.footerUlContainer{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category{
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+}
+
+.categoryTitle{
+    grid-column: span 2;
+    text-transform: capitalize;
+    color: rgb(173, 180, 180);
+    font-family: "Common";
+    font-size: 20PX;
+    margin-bottom: 10PX;
+}
+
+.category .footerLink{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: "Common";
+    font-size: 13PX;
+}
+
+.footerLink:hover{
+    color: rgb(179, 122, 226);
+}
+
+.footerTitle, .info{
+    color: #fff;
+    margin: 20px 0;
+    text-transform: capitalize;
+    font-family: "Common";
+}
+
+.footerTitle{
+    margin-top: 80px;
+    font-size: 20px;
+    color: #fff;
+}
+.info{
+    font-size: 13px;
+}
+
+
+
+
+/* redes iconos */
+
+     #footerCont {
+      display: flex;
+      height: 10vh;
+      align-items: center;
+      justify-content: center;
+      animation-name: animation_redes;
+      animation-duration: 2s; }
+     #footerCont #redes {
+        padding: 0px;
+        margin: 0px; }
+       #footerCont #redes li {
+          display: inline-block;
+          margin: 10px;
+          height: 10px;
+          text-align: center; }
+        #footerCont #redes li a {
+            display: block;
+            padding: 0 10px;
+            background: #333;
+            color: #fff;
+            line-height: 50px;
+            width: 50px;
+            font-size: 1.5em;
+            box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.6);
+            border-radius: 13%; }
+ #footerCont #redes li a:hover {
+              filter: blur(2px);
+              transform: translateY(-3px) scale(1.2);
+              box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.9);
+              filter: none;
+              transition: .5s; }
+ #footerCont #redes li .facebook:hover {
+            background: #3b5999; }
+ #footerCont #redes li .instagram:hover {
+            background: #d63369; }
+ #footerCont #redes li .spotify:hover {
+            background: #00b627; }
+ #footerCont #redes li .youtube:hover {
+            background: #f12400; }
+ #footerCont #redes li .soundcloud:hover {
+            background: #fc7a00; }
+  
+  #footerCont ul:hover a {
+    filter: blur(2px); }
+  
+  /* ANIMACION FOOTER */
+  @keyframes animation_redes {
+    0% {
+      transform: translateY(250px); }
+    100% {
+      transform: translateY(0px); } }

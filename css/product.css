@@ -1,0 +1,137 @@
+.productDetails{
+    width: 100%;
+    padding: 60px 10vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.mainImage{
+    width: 600px;
+    height: 780px;
+    position: absolute;
+    background-image: url(../DIBUJOS/carta1.png);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 10px 5px 15px 5px;
+    padding-bottom: 20px;
+}
+
+.imageSlider{
+    width: 50%;
+    height: 700px;
+    position: relative;
+}
+
+.productImages{
+    position: absolute;
+    bottom: 20px;
+    left: 100%;
+    width: 70%;
+    background: #383838;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 200px;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.productImages img {
+    width: 120px;
+    height: 170px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.productImages img.active{
+    opacity: 0.5;
+}
+
+.details{
+    width: 50%;
+}
+
+.details .productName{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.details .productShort{
+    font-size: 25px;
+    line-height: 30px;
+    height: auto;
+    margin: 15px 0 30px;
+}
+
+.productPrice{
+    font-weight: 700;
+    font-size: 30px;
+}
+.productFullPrice{
+    font-size: 30px;
+    opacity: 0.5;
+    text-decoration: line-through;
+    margin: 0 20px;
+    font-weight: 300px;
+}
+.productDiscount{
+    font-size: 30px;
+    color: #ff7d7d;
+    font-size: 20px;
+}
+
+
+.btn{
+    display: flex;
+    width: 48%;
+    padding: 20px;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid black0;
+    color: #383838;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+.AddCart{
+    margin-right: 2%;
+    background: #383838;
+    color: #fff;
+}
+
+/* VERSIONES SIN TERMINAR */
+/* .productSubHeading{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 60px 0 10px;
+}
+
+.versionRadioBtn{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    margin-left: 0;
+    line-height: 80px;
+    cursor: pointer;
+    opacity: 0.3;
+    opacity: 1;
+    border: 10px solid rgb(6, 243, 113);
+    border-radius: 50%;
+
+}
+.versionImage img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+} */
+
+    /* .versionRadioBtn.check {
+ opacity: 1;
+ border: 10px solid rgb(6, 243, 113);
+ border-radius: 50%;
+
+} */
